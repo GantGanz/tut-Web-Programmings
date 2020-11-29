@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lingkaran</title>
+	<style type="text/css">
+		body{
+			background-image: url(sativa.png);
+		}
+		.X{
+			background-color: red;
+			width: 40px;
+			height: 40px;
+			line-height: 40px;
+			border-radius: 20px; /*bisa 50%*/
+			text-align: center;;
+		}
+		.bg{
+			background-color: salmon;
+			width: 200px;
+			height: 200px;
+			background-image: url(a.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			border-top-left-radius: 50%; /*bisa 100px(setengah)*/
+			border-bottom-right-radius: 50%; /*bisa 100px(setengah)*/
+			/*bisa : border-radius: 50% 0 50% 0*/
+		}
+		.content {
+			background-color: salmon;
+			overflow: hidden;
+			width: 200px;
+			height: 200px;
+			border-top-left-radius: 50%; /*bisa 100px(setengah)*/
+			border-bottom-right-radius: 50%; /*bisa 100px(setengah)*/
+			/*bisa : border-radius: 50% 0 50% 0*/
+			opacity: .5;/*0.5*/
+		}
+		.content img{
+			width: 200px;
+		}
+		.satu{
+			background-color: green;
+			width: 300px;
+			height: 300px;
+			/*opacity: .5; */
+			position: relative;
+		}
+		.dua{
+			/*background-color: red;*/
+			width: 100px;
+			height: 100px;
+			right: -40px;
+			bottom: -40px;
+			position: absolute;
+			/*opacity: 1;*/
+			/*0.5 parent di 1 kan lagi = 0.5*/
+			/*content nya yg di opacity makanya gk bisa merah nya aja yg tebal*/
+			background-color: rgba(255,0,0,50%);
+			/*warnyanya yg diopacity, bisa pake hsla*/
+		}
+	</style>
+</head>
+<body>
+	<div class="X">X</div>
+	<div class="bg"></div>
+	<div class="content">
+		<img src="a.jpg">
+	</div>
+	<div class="satu">
+		<div class="dua"></div>
+	</div>
+</body>
+</html>

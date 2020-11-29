@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relative Position</title>
+	<style>
+		div{
+			width: 200px;
+			height: 200px;
+			position: absolute;
+		}
+		.satu{
+			background-color: lightgreen;
+			z-index: 999;
+		}
+		.dua{
+			background-color: violet;
+			z-index: -999;
+			top: 100px;
+			left: 100px;
+		}
+		.tiga{
+			background-color: gold;
+			top: 200px;
+			left: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="satu"></div>
+	<div class="dua"></div>
+	<div class="tiga"></div>
+</body>
+</html>

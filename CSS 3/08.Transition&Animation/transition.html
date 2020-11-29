@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>transition</title>
+	<style>
+		/*dimasukkan container biar transitionnya smooth*/
+		.container{
+			border: 5px solid black;
+			margin: 10px auto;
+			width: 1000px;
+			line-height: 100px;
+			text-align: center;
+		}
+		.box{
+			width: 100px;
+			height: 100px;
+			background-color: salmon;
+			/*[property] <durasi> [fungsi] [delay]*/
+			transition: /*background-color*/margin-left 1000ms 1s;
+			/*property: all, nama-prperty, none*/
+		}
+		.box1{transition: all 3s ease;}
+		.box2{transition: all 3s ease-in;}
+		.box3{transition: all 3s ease-out;}
+		.box4{transition: all 3s ease-in-out;}
+		.box5{transition: all 3s linear;}
+		/* inspect elemen untuk tahu angkanya, pencet icon di sebelah kiri cubic bezier */
+		.box6{transition: all 3s cubic-bezier(0, -0.94, 1, 1.88);}
+		.box7{
+			width: 100px;
+			height: 100px;
+			background-color: salmon;
+			transition: margin-left 3000ms, transform 3s 2s, background-color 2s 3s;
+		}
+		.container:hover .box{
+			transform: rotate(720deg);
+			margin-left: 900px;
+			background-color: royalblue;
+		}
+
+
+		@keyframes animasiKotak{
+			/*from*/
+			0%{
+				
+			}
+
+			50%{
+				margin-left: 600px;
+			}
+
+			100%{
+				margin-left: 1000px;
+			}
+		}
+			/*name, duration, timing-function, delay, iteration-count(angka/infinite), direction(normal/reverse/alternate/alternate-reverse), fill-mode(none/forwards/backwards/both), play-state()running/pause)*/
+
+		.animationBox{
+			width: 100px;
+			height: 100px;
+			margin-left: 150px;
+			background-color: salmon;
+			text-align: center;
+			line-height: 100px;
+			animation: animasiKotak 2s ease 3 alternate-reverse forwards;
+			/*bisa ditulis sebaris"*/
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box box1">ease</div>
+		<div class="box box2">ease-in</div>
+		<div class="box box3">ease-out</div>
+		<div class="box box4">ease-in-out</div>
+		<div class="box box5">linear</div>
+		<div class="box box6">cubic-bezier</div>
+		<div class="box box7">delay-test</div>
+	</div>
+	<div class="animationBox">Animation</div>
+
+</body>
+</html>

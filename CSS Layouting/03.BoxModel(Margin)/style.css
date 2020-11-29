@@ -1,0 +1,38 @@
+div {
+	display: inline-block; /*biar horizontal*/
+	/*tetep ada margin nya, kalo nggak mau divnya nggak usah di spasi */
+}
+
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: lightgreen;
+	margin-left: -100px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	margin-right: 50px;
+}
+
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: lightblue;
+	margin-top: 50px; /*overlap (nggak ngaruh)*/
+	margin-left: 10px; /*horizontal nggak overlap*/
+}
+
+.tiga {
+	width: 100px;
+	height: 50px;
+	background-color: violet;
+	margin-left: auto; /*berada di tengah" parent*/
+	margin-right: : auto; /*harus kanan kiri*/
+}
+
+.empat {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	margin: 20px; /*bisa 1,2,3,4 nilai*/
+	/*1semua, 2atasbawahk+anankiri, 3atas+samping+bawah, 4searahjarumjam*/
+}

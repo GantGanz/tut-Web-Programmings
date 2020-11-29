@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gradients</title>
+	<style type="text/css">
+		.satu{
+			width: 600px;
+			height: 300px;
+			margin: 50px auto;
+			/*background-image: linear-gradient(red,green);*/
+			background: linear-gradient(45deg,yellow 10%, #f62 30%, rgba(100,100,100,0.5),salmon);/*berlawanan arah*//*bisa : to bottom,top,right,to bottom left*//*bisa di tambahi besarnya*/
+		}
+		.dua{
+			width: 600px;
+			height: 300px;
+			margin: 50px auto;
+			/*background-image: radial-gradient(red,green);*/
+			/*ellipse/circle, closed-side'corner, farthest*/
+			background-image: radial-gradient(circle farthest-side at top left,red,green);
+			/*tipe jangkauan,positionx,y*/
+
+		}
+	</style>
+</head>
+<body>
+	<div class="satu"></div>
+	<div class="dua"></div>
+</body>
+</html>

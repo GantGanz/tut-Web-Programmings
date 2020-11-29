@@ -1,0 +1,12 @@
+body, h1, p{ /*pake * bisa semua tapi berat*/
+	margin: 0;
+	padding: 0;
+}
+
+/*CARA yg lebih efektif : copas dari meyerweb*/
+
+div{
+	width: 200px;
+	height: 200px;
+	background-color: black;
+}

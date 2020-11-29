@@ -1,0 +1,29 @@
+div{
+	width: 600px;
+	margin: 10px auto;
+	box-sizing: border-box;
+	/*membuat ukuran nya selalu 600 tak peduli padding/border*/
+}
+
+.satu {
+	/*width: 360px;*/
+	/*height: 360px;*/
+	background-color: coral;
+	/*margin: 30px auto;*/
+	/*atasbawah, kirikanan*/
+	/*nulis padding format nya sama dgn margin*/
+	padding: 10px 20px 30px 40px;
+	/*bedanya gk bisa negatif/auto*/
+	/*padding&border mempengaruhi ukuran elemen(box)
+	kotaknya jadi gk 360/360*/
+	border: 5px double black;
+	/*width style color*/
+	/*style : solid, doted,dashed,double*/
+	border-bottom: 10px dashed royalblue;
+}
+
+.dua {
+	background-color: red;
+	padding: 20px;
+	border: 15px double black;
+}
