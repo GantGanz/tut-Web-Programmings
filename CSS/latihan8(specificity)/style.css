@@ -1,0 +1,23 @@
+p{ /*1*/
+	color: red;
+}
+p{ /*1*/
+	color: green;/*ketimpa karena urutan*/
+}
+#p1{ /*100*/
+	color: blue;/*lebih tinggi bebanya*/  
+}
+/*inline id class element*/
+/*     0  0     0       0*/
+ul#sarapan li{ /*102*/
+	color: pink;
+}
+.favorite{ /*10*/
+	color: red;
+}
+/*solusi nya agar favoritenya satu*/
+ul#sarapan li.favorite{ /*112*/
+	color: #FF0000;
+}
+
+/*kalkulator specifity : specifity.keegan.st*/

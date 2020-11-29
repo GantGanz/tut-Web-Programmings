@@ -1,0 +1,19 @@
+h1{
+	color: gold;
+	color: coral; /*ditimpa*/
+}
+h2{
+	color: #ababab/*cari di colorpicker*/;
+	text-align: justify;
+	text-decoration: overline; /*none, underline,overline,line-through*/
+	letter-spacing: 5px;
+}
+h3{
+	color: rgb(0,100,100);
+	text-indent: 10%;/*px bisa*/
+	text-transform: capitalize; /*lowercase, uppercase*/
+	word-spacing: 10px;
+}
+a{cccc
+	text-decoration: none;
+}

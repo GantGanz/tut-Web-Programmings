@@ -1,0 +1,33 @@
+.hello:link{ /*gk perlu link bisa*/
+	color: orange;
+}
+
+.hello:hover{
+	font-family: arial;
+	font-size: 20 px;
+	color: green;
+}
+
+.hello:active{
+	font-style: italic;
+}
+
+.hello:visited{
+	color: pink;
+}
+
+li:first-child a{/*last*/
+	color:green;
+}
+
+li:nth-child(3n-1) a{ /*3,even,odd, 3n+1*/
+	color: red;
+}
+
+li:nth-child(odd) a:hover{ /*3,even,odd, 3n+1*/
+	color: pink;
+}
+
+p:first-of-type{ /*last*/
+	color: green;
+}

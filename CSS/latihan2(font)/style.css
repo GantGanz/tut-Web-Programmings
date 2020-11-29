@@ -1,0 +1,18 @@
+h1{
+	font-family: arial, verdana, sans-serif; 
+	/*ada arail?, ada verdana?, kalo tidak sans*/
+	font-size: 30px;
+	font-style: italic;
+	/*obelic juga miring, tapi huruf asli dipaksa miring, kalo italic ganti font*/
+}
+
+h2{
+	font-family : georgia : serif;
+	font-variant: small-caps;
+	font-weight: normal;
+	line-height: 1em;
+}
+h3{
+	/*bisa begini : font-style font-variant font-weight font-size(wajib) line-height font-family(wajib)*/
+	font : italic normal bold 16px/180px helvetica,arial, sans-serif;
+}

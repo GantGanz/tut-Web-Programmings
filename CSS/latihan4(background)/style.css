@@ -1,0 +1,13 @@
+body {
+	background-color: rgb(100,100,100);
+	background-image: url(a.jpg);
+	/*subtlepattern.com (pattern untuk website)*/
+	background-repeat: no-repeat; /*x, y, no-repeat*//*bagus kalo gradient*/
+	background-position: bottom right; /*gambar error karena kontenya dikit*/
+
+
+	/*bisa dengan*/
+	/*background: color url() position repeat*/
+	/*background : url(a.jpg) rgb(100,100,100) no-repeat bottom right;*/
+	/*color bisa ditukar url*/
+}

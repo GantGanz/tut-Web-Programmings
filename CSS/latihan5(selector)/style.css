@@ -1,0 +1,39 @@
+body{
+	font-family: arial;
+}
+
+h1, h2{
+	color: green;
+}
+
+h2{
+	font-style: italic;
+}
+
+ul{
+	COLOR: BLUE;
+}
+
+ul li a { /*nggak ul karena a nya*/ /*a yg didalam li didalam ul*/
+	color: orange;
+}
+
+ol li a { /*nggak ul/ol*/ /*a yg didalam li didalam ul*/
+	color: red;
+}
+
+#p1{ /*nggak boleh 2 id*/
+	color: lightblue;
+}
+
+.p2{ /*boleh 2 kelas*/
+	color: red;
+}
+
+.cetaktebal{
+	font-weight: bold;
+}
+
+p.cetaktebal{
+	font-size: 20px;
+}
